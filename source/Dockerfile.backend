@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y git maven
 WORKDIR /usr/src/app
 
 # Clone backend source (public GitHub)
-RUN git clone https://github.com/klu2300030421/employee-backend-.git .
+RUN git clone https://github.com/2300031835shanthan/employee-backend.git .
 
 # Build Spring Boot JAR
 RUN mvn clean package -DskipTests
